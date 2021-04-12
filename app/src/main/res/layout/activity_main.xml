@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Author: Asad Jawaid
+    Student Number: 104969683
+    Due Date: 2021-03-12
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/go_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="308dp"
+        android:background="@color/green"
+        android:padding="30dp"
+        android:text="@string/go"
+        android:textColor="@color/black"
+        android:textSize="100sp" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:paddingStart="12dp"
+        android:paddingLeft="12dp"
+        android:paddingEnd="12dp"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/custom_person_icon"
+        android:drawableStart="@drawable/custom_person_icon"
+        android:inputType="textVisiblePassword|textNoSuggestions"
+        android:hint="@string/username"
+        android:background="@drawable/custom_input"/>
+
+    <Button
+        android:id="@+id/select_a_username"
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:text="@string/select_username_instead"
+        android:paddingStart="12dp"
+        android:paddingLeft="12dp"
+        android:paddingEnd="12dp"
+        android:backgroundTint="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

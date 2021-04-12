@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">A3andA4Game</string>
+    <string name="go">GO!</string>
+    <string name="timer"></string>
+    <string name="score_text">0/0</string>
+    <string name="num_first">12</string>
+    <string name="num_second">7</string>
+    <string name="operator">+</string>
+    <string name="option_one">15</string>
+    <string name="option_two">19</string>
+    <string name="option_three">22</string>
+    <string name="option_four">20</string>
+    <string name="play">Play</string>
+    <string name="correct_incorrect"></string>
+    <string name="username">Username</string>
+    <string name="_10_seconds">10 Seconds</string>
+    <string name="_15_seconds">15 Seconds</string>
+    <string name="_20_seconds">20 Seconds</string>
+    <string name="show_all_scores">Show All Scores</string>
+    <string name="select_username_instead">Select Username Instead</string>
+</resources>

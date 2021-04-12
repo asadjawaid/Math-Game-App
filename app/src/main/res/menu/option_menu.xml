@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ten_seconds"
+        android:title="@string/_10_seconds"
+        android:orderInCategory="10"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fifteen_seconds"
+        android:orderInCategory="11"
+        android:title="@string/_15_seconds"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/twenty_seconds"
+        android:orderInCategory="12"
+        android:title="@string/_20_seconds"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/user_prev_scores"
+        android:orderInCategory="13"
+        android:title="@string/show_all_scores"
+        app:showAsAction="never"/>
+</menu>
